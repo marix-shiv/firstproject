@@ -14,6 +14,7 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
 import Portfolio from "./Pages/Portfolio";
+import Login from "./Pages/Login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/Login" element={<Login/>}/>
     </Route>
   )
 );
