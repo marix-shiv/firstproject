@@ -16,6 +16,8 @@ import Gallery from "./Pages/Gallery";
 import Portfolio from "./Pages/Portfolio";
 import Login from "./Pages/Login";
 
+import Shinchan from "./Pages/Shinchan";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter(
@@ -27,6 +29,8 @@ const router = createBrowserRouter(
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/Login" element={<Login/>}/>
+      <Route path="/Shinchan" element={<Shinchan />} />
+
     </Route>
   )
 );
