@@ -16,7 +16,9 @@ const Navs = () => {
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link as={Link} to="/Login">Login</Nav.Link>
             <Nav.Link as={Link} to="/Shinchan">Shinchan</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>
