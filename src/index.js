@@ -15,8 +15,8 @@ import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
 import Portfolio from "./Pages/Portfolio";
 import Login from "./Pages/Login";
-
 import Shinchan from "./Pages/Shinchan";
+import Product from "./Pages/Product";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -30,6 +30,8 @@ const router = createBrowserRouter(
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/Login" element={<Login/>}/>
       <Route path="/Shinchan" element={<Shinchan />} />
+
+      <Route path="/Product" element={<Product />} />
 
     </Route>
   )
